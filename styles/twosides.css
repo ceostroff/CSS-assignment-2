@@ -11,68 +11,76 @@ header {
     position: fixed;
     width: 100%;
     color: #fff;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding-top: 20px;
-}
-
-nav li {
-    float: left;
-    margin-right: 20px;
-    text-transform: uppercase;
-}
-
-
-article {
-    width: 600px;
-    background: #fff; 
-    padding: 20px 40px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 h1 {
     font-size: 300%;
     margin: 0;
     float: left;
+    padding: 10px;
 }
 
+nav {
+    float: right;
+    padding-right: 20px; 
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 100%;
+
+}
+
+
+article {
+    width: 50%;
+    padding: 70px 70px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 40%;
+}
+
+
 h2 {
-    text-align: center;
-    padding-top: 20px;
+    text-align: left;
+    padding-top: 70px;
     font-size: 50px;
     margin: auto;
+    float: left;  
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 
 #cougar > p, #lion > p, #tiger > p {
     text-align: center;
 }
 
+div {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+
 img {
     display: block;
     margin: auto;
 }
 
-section {
-      clear: both;
-    float: right;
-    width: 100%;
-    padding-bottom: 40px; 
-    padding-top: 50px; 
-}
-
 #cougar {
-    background: #b26219;
-    padding-bottom: 40px; 
+     background: #b26219;
+     padding-bottom: 40px; 
 }
 
 #lion {
